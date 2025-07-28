@@ -6,4 +6,3 @@ def multiply(a,b):
 
 def neuron(inputs,weights,bias=0):
     return sum(multiply(inputs,weights))+bias
-print(neuron([1,2,3],[4,5,6],7))
