@@ -5,4 +5,4 @@ def multiply(a,b):
     return c
 
 def neuron(inputs,weights,bias=0):
-    return sum(multiply(inputs,weights))+bias
+    return max(sum(multiply(inputs,weights))+bias)
